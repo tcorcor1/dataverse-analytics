@@ -1,0 +1,14 @@
+﻿{
+	"profiles": {
+		"DataverseAnalytics.Console": {
+			"commandName": "Project",
+			"environmentVariables": {
+				"AZURE_TENANT_ID": "00000000-0000-0000-0000-000000000000",
+				"AZURE_CLIENT_ID": "00000000-0000-0000-0000-000000000000",
+				"AZURE_CLIENT_SECRET": "yyz",
+				"AZURE_APP_INSIGHTS_RESOURCE": "/subscriptions/$00000000-0000-0000-0000-000000000000/resourceGroups/$resource-group-name/providers/microsoft.insights/components/$app-insights-instance",
+				"STORAGE_ACCOUNT_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=storageaccountname;AccountKey=yyz;EndpointSuffix=core.windows.net"
+			}
+		}
+	}
+}
